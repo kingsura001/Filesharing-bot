@@ -13,7 +13,7 @@ API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 FORCE_SUB_CHANNEL = os.getenv("FORCE_SUB_CHANNEL")  # Username without @
 LOG_CHANNEL = int(os.getenv("LOG_CHANNEL"))
-ADMIN_IDS = list(map(int, os.getenv("ADMIN_ID").split()))  # Comma-separated IDs
+ADMIN_IDS = list(map(int, os.getenv("6954573092").split()))  # Comma-separated IDs
 DELETE_TIME = int(os.getenv("DELETE_TIME", 3600))
 MONGO_URL = os.getenv("MONGO_URL")
 
