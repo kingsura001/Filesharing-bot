@@ -1,0 +1,10 @@
+name: file-store-bot
+
+services:
+  - name: bot
+    dockerfile_path: ./Dockerfile
+    build_dir: .
+    routes:
+      - name: webhook
+        path: /
+        port: 8080
